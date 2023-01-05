@@ -1,0 +1,200 @@
+:root {
+    --head-tone: rgb(155, 248, 220);
+    --head-background: rgb(46, 115, 243);
+}
+
+body {
+    background-color: rgb(161, 174, 187);
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    padding-left: 0px;
+    background-color: var(--head-background);
+    width: auto;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: left;
+    background-color: var(--head-tone);
+    padding: 30px;
+    display: flex;
+    color: var(--head-background);
+}
+nav ul {
+    display: flex;
+    align-content: stretch;
+    margin: 20px;
+}
+nav li {
+    margin: 20px;
+}
+nav a {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--head-tone);
+    text-decoration: underline;
+    text-underline-offset: .5em;
+}
+section img {
+    height: 200px;
+    width: 100%;
+}
+section h2 {
+    position: absolute;
+    right: 100px;
+    top: 25%;
+    font-size: 45px;
+    background-color: var(--head-tone);
+    color: var(--head-background);
+    padding: 20px;
+    
+}
+h3 {
+    font-size: 40px;
+    color: var(--head-background);
+}
+/*Try to consolidate code later*/
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+.information {
+    display: inline-flex;
+    align-items: stretch;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 30%;
+    margin-top: 2%;
+}
+
+.about-me {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border: dotted 3px;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+.information-2 {
+    display: inline-flex;
+    align-items: flex-start;
+    flex-direction: row;
+    border: 3px dotted;
+    justify-content: flex-start;
+    width: 59%;
+    border-left: solid var(--head-background) 3px;
+}
+
+.right-info {
+    display: inline-flex;
+    align-items: flex-start;
+    border: dotted 3px;
+    max-width: fit-content;
+}
+
+.portfolio {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 30%;
+    /*
+    border-right: solid var(--head-background) 3px;
+    */
+}
+
+.work {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    border: dotted 3px;
+    margin-right: 5%;
+}
+
+
+.work-link {
+    display: inline-flex;
+    align-items: flex-end;
+    flex-direction: row;
+    width: 59%;
+    border: 3px dotted;
+    border-left: solid var(--head-background) 3px;
+}
+
+.work-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+    /*
+    height: 30em;
+*/
+}
+
+.beach {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 30em;
+    height: 25em;
+    transition: all 1s ease-out;
+    background-color: gray;
+    z-index: 2;
+}
+
+.border {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    border: solid var(--head-tone) .5em;
+    background-color: var(--head-tone);
+    
+    
+}
+
+h4 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    color: var(--head-background);
+    z-index: 1;
+    margin-left: 2em;
+}
+
+.beach:hover {
+    background-color: gray;
+    opacity: .5;
+}
+/*
+.square {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: gradient;
+    opacity: 0;
+    transition: all .3s ease;
+}
+
+.linky:hover { 
+        opacity: .8;
+    }
+
+
