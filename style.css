@@ -44,7 +44,7 @@ nav a {
 }
 
 .subtitle {
-    background-image: url(marble.webp);
+    background-image: url(./assets_/marble.webp);
     height: 10em;
     width: 100%;
     max-width: 100%;
@@ -159,7 +159,7 @@ p {
 }
 
 .border-im {
-    background-image: url(beach.jpg);
+    background-image: url("./assets_/beach.jpg");
     background-size: 100% 100%;
     width: 80%;
     height: 40%;
@@ -173,7 +173,7 @@ p {
 }
 
 .border-small {
-    background-image: url(beach.png);
+    background-image: url(./assets_/beach.jpg);
     background-size: 100% 100%;
     border: solid var(--head-tone) 1em;
     display: flex;
